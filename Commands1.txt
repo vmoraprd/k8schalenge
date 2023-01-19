@@ -1,0 +1,106 @@
+ Id CommandLine
+  -- -----------
+   1 cd .\app1\
+   2 python .\app.py
+   3 python .\app.py
+   4 python .\app.py
+   5 docker build -t vemora/k8schallenge .
+   6 docker push vemora/k8schallenge:latest
+   7 python .\app.py
+   8 python .\app.py
+   9 docker push vemora/k8schallenge:latest
+  10 docker build -t vemora/k8schallenge .
+  11 docker push vemora/k8schallenge:latest
+  12 python .\app.py
+  13 python .\app.py
+  14 docker build -t vemora/k8schallenge .
+  15 docker push vemora/k8schallenge:latest
+  16 python .\app.py
+  17 docker build -t vemora/k8schallenge .
+  18 docker push vemora/k8schallenge:latest
+  19 python .\app.py
+  20 docker build -t vemora/k8schallenge .
+  21 docker push vemora/k8schallenge:latest
+  22 docker build -t vemora/k8schallenge .
+  23 docker push vemora/k8schallenge:latest
+  24 docker build -t vemora/k8schallenge .
+  25 docker push vemora/k8schallenge:latest
+  26 docker build -t vemora/k8schallenge .
+  27 docker push vemora/k8schallenge:latest
+  28 docker build -t vemora/k8schallenge .
+  29 docker push vemora/k8schallenge:latest
+  30 docker build -t vemora/k8schallenge .
+  31 docker push vemora/k8schallenge:latest
+  32 docker build -t vemora/k8schallenge .
+  33 docker push vemora/k8schallenge:latest
+  34 docker build -t vemora/k8schallenge .
+  35 docker push vemora/k8schallenge:latest
+  36 python .\app.py
+  37 python .\app.py
+  38 docker build -t vemora/k8schallenge .
+  39 docker push vemora/k8schallenge:latest
+  40 python .\app.py
+  41 docker build -t vemora/k8schallenge .
+  42 docker push vemora/k8schallenge:latest
+  43 docker build -t vemora/k8schallenge .
+  44 docker push vemora/k8schallenge:latest
+  45 docker build -t vemora/k8schallenge .
+  46 docker push vemora/k8schallenge:latest
+  47 docker build -t vemora/k8schallenge .
+  48 docker push vemora/k8schallenge:latest
+  49 docker build -t vemora/k8schallenge .
+  50 docker push vemora/k8schallenge:latest
+  51 cd ..
+  52 cd .\Resources\                                                                                                                                                                              
+  53 kubectl apply -f .\nginx.yaml
+  54 kubectl apply -f .\app1.yaml
+  55 kubectl get svc
+  56 kubectl delete svc app1
+  57 kubectl get svc
+  58 kubectl apply -f .\app1.yaml
+  59 kubectl apply -f .\nginx.yaml
+  60 cd ..
+  61 cd .\app1\
+  62 docker build -t vemora/k8schallenge .
+  63 docker push vemora/k8schallenge:latest
+  64 docker build -t vemora/k8schallenge .
+  65 docker push vemora/k8schallenge:latest
+  66 cd ..
+  67 cd .\Resources\
+  68 kubectl apply -f .\nginx.yaml
+  69 kubectl apply -f .\app1.yaml
+  70 docker images
+  71 docker ps
+  72 docker ps -a
+  73 cd ..
+  74 cd .\app1\
+  75 python .\app.py
+  76 cd ..
+  77 cd .\app2\
+  78 python .\app.py
+  79 cd ..
+  80 cd .\Resources\
+  81 kubectl apply -f .\nginx.yaml
+  82 kubectl apply -f .\nginx.yaml
+  83 kubectl apply -f .\nginx.yaml
+  84 kubectl apply -f .\nginx.yaml
+  85 kubectl apply -f .\nginx.yaml
+  86 kubectl apply -f .\nginx.yaml
+  87 kubectl apply -f .\nginx.yaml
+  88 kubectl apply -f .\nginx.yaml
+  89 kubectl apply -f .\nginx.yaml
+  90 kubectl apply -f .\nginx.yaml
+  91 kubectl apply -f .\nginx.yaml
+  92 kubectl apply -f .\nginx.yaml
+  93 kubectl apply -f .\nginx.yaml
+  94 kubectl apply -f .\nginx.yaml
+  95 kubectl apply -f .\nginx.yaml
+  96 kubectl apply -f .\nginx.yaml
+  97 kubectl apply -f .\nginx.yaml
+  98 kubectl apply -f .\nginx.yaml
+  99 kubectl apply -f .\nginx.yaml
+ 100 kubectl apply -f .\nginx.yaml                                                                                                                                                                
+ 101 kubectl apply -f .\nginx.yaml
+ 123 cd ..
+ 124 cd .\Resources\
+ 125 kubectl apply -f .

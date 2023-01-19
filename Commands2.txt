@@ -1,0 +1,341 @@
+Id	CommandLine
+--	-----------
+1	cd \
+2	cd .\Users\Usuario\PycharmProjects\k8schallenge\
+3	minikube status
+4	minikube start
+5	minikube start --driver=virtualbox
+6	minikube start --driver=hyperv
+7	minikube delete
+8	minikube start --driver=hyperv
+9	minikube status
+10	minikube dashboard
+11	Invoke-WebRequest https://github.com/digitalocean/doctl/releases/download/v1.92.0/doctl-1.92.0-windows-amd64.zip -OutFile ~\doctl-1....
+12	Expand-Archive -Path ~\doctl-1.92.0-windows-amd64.zip
+13	New-Item -ItemType Directory $env:ProgramFiles\doctl\...
+14	ls
+15	New-Item -ItemType Directory $env:ProgramFiles\doctl\...
+16	Invoke-WebRequest https://github.com/digitalocean/doctl/releases/download/v1.92.0/doctl-1.92.0-windows-amd64.zip -OutFile ~\doctl-1....
+17	ls
+18	Expand-Archive -Path ~\doctl-1.92.0-windows-amd64.zip
+19	New-Item -ItemType Directory $env:ProgramFiles\doctl\...
+20	kubectl --kubeconfig=~/.kube/do-nyc1-k8s-1-25-4-do-0-nyc1-1674084563511-kubeconfig.yaml get nodes
+21	ls
+22	kubectl --kubeconfig=~/.kube/do-nyc1-k8s-1-25-4-do-0-nyc1-1674084563511-kubeconfig.yaml get nodes
+23	cd ~
+24	cd .\.kube\
+25	ls
+26	kubectl --kubeconfig=~/.kube/k8s-1-25-4-do-0-nyc1-1674084563511-kubeconfig get nodes
+27	kubectl --kubeconfig=~/.kube/k8s-1-25-4-do-0-nyc1-1674084563511-kubeconfig.yaml get nodes
+28	kubectl --kubeconfig=k8s-1-25-4-do-0-nyc1-1674084563511-kubeconfig.yaml get nodes
+29	kubectl get nodes
+30	kubectl config current-context
+31	kubectl --kubeconfig=get-context
+32	kubectl config get-contexts
+33	ls
+34	cat .\config
+35	kubectl config get-contexts
+36	kubectl config use-context do-sfo2-example-cluster-01
+37	kubectl config use-context do-nyc1-k8s-1-25-4-do-0-nyc1-1674084563511
+38	kubectl get nodes
+39	cd \
+40	cd '.\Users\Usuario\Downloads\Deriv K8s Challenge\'
+41	ls
+42	cd \
+43	cd .\Users\Usuario\PycharmProjects\k8schallenge\
+44	ls
+45	ls
+46	kubectl get nodes
+47	kubectl get svc
+48	kubectl get pods
+49	docker images
+50	kubectl get svc
+51	kubectl get pods
+52	kubectl get pods --show-labels
+53	kubectl delete pod -l app=app
+54	kubectl get pods --show-labels
+55	kubectl delete pod -l app=app2
+56	kubectl get pods
+57	kubectl get svc
+58	kubectl describe svc nginx
+59	-...
+60	choco install kubernetes-helm
+61	helm
+62	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManag...
+63	choco install kubernetes-helm
+64	helm
+65	helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+66	helm repo update
+67	helm install nginx-ingress ingress-nginx/ingress-nginx --set controller.publishService.enabled=true
+68	kubectl get svc
+69	kubectl get svc
+70	kubectl delete svc nginx
+71	kubectl get svc
+72	kubectl get svc
+73	kubectl describe svc nginx-ingress-ingress-nginx-controller
+74	kubectl get svc
+75	kubectl get svc
+76	cd .\Resources\
+77	ls
+78	kubectl delete -f .\nginx.yaml
+79	kubectl delete -f .\nginx2.yaml
+80	helm install nginx-ingress ingress-nginx/ingress-nginx --set controller.publishService.enabled=true
+81	helm update nginx-ingress ingress-nginx/ingress-nginx --set controller.publishService.enabled=true
+82	helm upgrade nginx-ingress ingress-nginx/ingress-nginx --set controller.publishService.enabled=true
+83	kubectl get svc
+84	kubectl get svc
+85	helm update nginx-ingress ingress-nginx/ingress-nginx --set controller.publishService.enabled=true
+86	kubectl describe svc nginx-ingress-ingress-nginx-controller
+87	kubectl get pods
+88	kubectl log app-85f8dd4f8c-d8xwv
+89	kubectl logs app-85f8dd4f8c-d8xwv
+90	kubectl apply -f .
+91	kubectl get pods
+92	kubectl delete pod -l app=app
+93	kubectl get pods
+94	kubectl get pods --show-labels
+95	kubectl get svc
+96	kubectl desribe svc nginx-ingress-ingress-nginx-controller
+97	kubectl describe svc nginx-ingress-ingress-nginx-controller
+98	kubectl get pods
+99	kubectl logs app-77fb794fcd-56cqk
+100	kubectl logs -f app-77fb794fcd-56cqk
+101	kubectl get svc
+102	kubectl get pods
+103	kubectl delete pod -l app=app
+104	kubectl get pods
+105	kubectl delete pod -l app=app2
+106	kubectl get pods
+107	kubectl delete pod -l app=app
+108	kubectl delete pod -l app=app2
+109	kubectl get pods
+110	kubectl logs app-77fb794fcd-2z6fq
+111	kubectl logs app-77fb794fcd-wp6ws
+112	kubectl logs app2-77b649d67c-7rd78
+113	kubectl logs app2-77b649d67c-sr6zq
+114	kubectl delete pod -l app=app2
+115	kubectl get pods
+116	kubectl get svc
+117	kubectl delete pod -l app=app2
+118	kubectl get pods
+119	kubectl get pods
+120	kubectl delete pod -l app=app2
+121	kubectl get pods
+122	kubectl delete pod -l app=app2
+123	docker ps -a
+124	docker ps -a
+125	kubectl get pods
+126	kubectl delete pod -l app=app2
+127	kubectl delete pod -l app=app
+128	kubectl config get-contexts
+129	docker images
+130	kubectl delete pod -l app=app
+131	kubectl get pods
+132	kubectl delete pod -l app=app
+133	kubectl get pods -o wide
+134	docker ps -a
+135	docker ps -a
+136	kubectl delete pod -l app=app
+137	kubectl get pods
+138	kubectl get pods
+139	kubectl get pods
+140	kubectl delete pod -l app=app
+141	kubectl get pods
+142	kubectl delete pod -l app=app
+143	kubectl get pods
+144	kubectl get pods
+145	docker ps -a
+146	kubectl get pods
+147	kubectl delete pod -l app=app
+148	kubectl get pods
+149	kubectl get pods
+150	kubectl delete pod -l app=app
+151	kubectl get pods
+152	kubectl get pods
+153	kubectl delete pod -l app=app
+154	kubectl get pods
+155	kubectl logs app-77fb794fcd-t2gdb
+156	kubectl get pods
+157	kubectl delete pod -l app=app
+158	kubectl get pods
+159	kubectl get pods
+160	kubectl delete pod -l app=app
+161	kubectl get pods
+162	kubectl get pods
+163	kubectl delete pod -l app=app
+164	kubectl get pods
+165	kubectl get svc
+166	kubectl describe svc nginx-ingress-ingress-nginx-controller
+167	kubectl get nodes
+168	kubectl get nodes -o wide
+169	kubectl get pods -o wide
+170	kubectl apply -f .\nginx.yaml
+171	kubectl apply -f .\nginx.yaml
+172	kubectl apply -f nginx.yaml
+173	kubectl apply -f nginx.yaml
+174	kubectl get pods -o wide
+175	kubectl delete pod nginx-ingress-ingress-nginx-controller-55c8969595-z6bj2
+176	kubectl get pods -o wide
+177	kubectl get pods -o wide
+178	kubectl get pods -o wide
+179	kubectl get pods -o wide
+180	kubectl get pods -o wide
+181	kubectl get svc
+182	kubectl get pods -o wide
+183	kubectl delete pod -l app=app
+184	kubectl delete pod -l app=app2
+185	kubectl get pods -o wide
+186	kubectl get svc
+187	kubectl describe svc nginx-ingress-ingress-nginx-controller
+188	kubectl get pods -o wide
+189	kubectl delete pod -l app=app
+190	kubectl get pods
+191	kubectl describe svc nginx-ingress-ingress-nginx-controller
+192	kubectl get pods
+193	kubectl describe pod app-77fb794fcd-hkdnc
+194	kubectl get pods
+195	kubectl delete pod -l app=app
+196	kubectl get pods
+197	kubectl get pods
+198	kubectl delete pod -l app=app
+199	kubectl get pods
+200	kubectl get pods
+201	kubectl get pods
+202	kubectl delete pod -l app=app
+203	kubectl get pods
+204	kubectl get pods
+205	kubectl delete pod -l app=app
+206	kubectl get pods
+207	kubectl get pods
+208	kubectl get pods
+209	kubectl delete pod -l app=app
+210	kubectl get pods
+211	kubectl get pods
+212	kubectl delete pod -l app=app
+213	kubectl get pods
+214	kubectl delete pod -l app=app
+215	kubectl get pods
+216	kubectl get pods
+217	kubectl delete pod -l app=app
+218	kubectl get pods
+219	kubectl get pods
+220	kubectl get pods
+221	kubectl delete pod -l app=app
+222	kubectl get pods
+223	kubectl get pods
+224	kubectl delete pod -l app=app
+225	kubectl get pods
+226	kubectl get pods
+227	kubectl delete pod -l app=app
+228	kubectl get pods
+229	kubectl get pods
+230	kubectl get pods
+231	kubectl get pods
+232	kubectl delete pod -l app=app
+233	kubectl get pods
+234	kubectl delete pod -l app=app
+235	kubectl delete pod -l app=app
+236	kubectl get pods
+237	kubectl get pods
+238	kubectl get pods
+239	kubectl get pods
+240	kubectl get pods
+241	kubectl get pods
+242	kubectl delete pod -l app=app
+243	kubectl get pods
+244	kubectl get pods
+245	kubectl get pods
+246	kubectl describe pod app-77fb794fcd-hkq24
+247	kubectl get pods
+248	kubectl get pods
+249	kubectl get pods
+250	kubectl get pods
+251	kubectl delete pod -l app=app
+252	kubectl get pods
+253	kubectl get pods
+254	kubectl get pods
+255	kubectl delete pod -l app=app
+256	kubectl get pods
+257	kubectl get pods
+258	kubectl get pods
+259	kubectl get pods
+260	kubectl delete pod -l app=app
+261	kubectl get pods
+262	kubectl exec -it app-77fb794fcd-smlxq sh
+263	kubectl get pods -o wide
+264	kubectl get pods
+265	kubectl delete pod -l app=app
+266	kubectl delete pod -l app=app1
+267	kubectl get pods
+268	kubectl get pods
+269	kubectl get svc
+270	kubectl delete pod -l app=app1
+271	kubectl get pods
+272	kubectl get svc
+273	kubectl delete .\app1.yaml
+274	ls
+275	kubectl delete app1.yaml
+276	kubectl get pods
+277	kubectl get deploy
+278	kubectl delete deploy app1
+279	kubectl get pods
+280	kubectl get pods
+281	kubectl get svc
+282	kubectl get svc
+283	kubectl get pods
+284	kubectl get pods
+285	kubectl get svc
+286	kubectl get pods
+287	kubectl describe svc nginx-ingress-ingress-nginx-controller
+288	kubectl get nodes -o wide
+289	kubectl get nodes
+290	kubectl get pods
+291	kubectl get svc
+292	ping -a 164.90.252.148
+294	ping -a k8schallengevmora.com
+295	kubectl get svc
+296	kubectl get deploy
+297	kubectl delete deploy app
+298	kubectl get deploy
+299	kubectl get svc
+300	kubectl get pods
+301	kubectl delete svc app
+302	kubectl get pods
+303	kubectl get pods
+304	kubectl get svc
+305	kubect get pods
+306	kubectl get podes
+307	kubectl get pods
+308	kubectl get ns
+309	kubectl get pods -n kube-system
+310	kubectl get pods --all-namespaces
+311	kubectl logs nginx-ingress-ingress-nginx-controller-55c8969595-g7hpc
+312	kubectl logs -f nginx-ingress-ingress-nginx-controller-55c8969595-g7hpc
+313	kubectl get deploy
+314	kubectl delete -f .
+315	kubectl get pods
+316	kubectl get svc
+317	kubectl get ingress
+318	kubectl logs -f nginx-ingress-ingress-nginx-controller-55c8969595-g7hpc
+319	kubectl edit ingres ingress
+320	kubectl edit ingress ingress
+321	kubectl get pods
+322	kubectl delete pod app1-558db775b6-mh9j5
+323	kubectl get pods
+324	kubectl get pods
+325	kubectl delete deploy,svc app1
+326	kubectl get pods
+327	kubectl get ingress
+328	kubectl delete ingress ingress
+329	kubectl get ingress
+330	kubectl get pods
+331	kubectl get pods
+332	kubectl get pods
+333	kubectl get svc
+334	kubectl get ingress
+335	cd \
+336	cd .\Users\Usuario\Downloads\
+337	git clone https://github.com/vmoraprd/k8schalenge.git
+338	ls
+339	cd .\k8schalenge\
+340	ls
